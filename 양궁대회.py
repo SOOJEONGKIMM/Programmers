@@ -1,5 +1,6 @@
 from collections import deque
 
+
 def bfs(n, info):    
     res = []
     q = deque([(0, [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])])
