@@ -10,3 +10,4 @@ def solution(n):
         n//=3
 
     return answer
+
