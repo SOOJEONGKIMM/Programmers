@@ -8,6 +8,7 @@ def solution(n):
         answer = nara[n%3] + answer
         print(answer)
         n//=3
+        
 
     return answer
 
