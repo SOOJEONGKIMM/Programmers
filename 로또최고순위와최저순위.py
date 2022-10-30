@@ -12,5 +12,6 @@ def solution(lottos, win_nums):
     answer = [rank[count], rank[count-zerocount]]
     
     
-    
+     
+
     return answer
