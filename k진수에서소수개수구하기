@@ -20,3 +20,5 @@ def solution(n, k):
         if i and checksosu(int(i)):
             answer+=1
     return answer
+ 
+ 
