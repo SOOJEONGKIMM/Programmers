@@ -19,3 +19,4 @@ def solution(bridge_length, weight, truck_weights):
         answer+=1
     
     return answer 
+
