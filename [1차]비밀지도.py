@@ -13,3 +13,4 @@ def solution(n, arr1, arr2):
         b_num = b_num.replace('0',' ')
         answer.append(b_num)
     return answer
+
