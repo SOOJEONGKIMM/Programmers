@@ -10,6 +10,7 @@ def solution(play_time, adv_time, logs):
         sec_arr[start]+=1
         sec_arr[end]-=1
         
+        
     for idx in range(1, play):
         sec_arr[idx] += sec_arr[idx-1] #누적합
         
