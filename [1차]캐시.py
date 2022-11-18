@@ -18,3 +18,4 @@ def solution(cacheSize, cities):
             answer+=1
         #print(cache,answer)
     return answer
+
