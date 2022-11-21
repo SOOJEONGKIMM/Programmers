@@ -4,3 +4,4 @@ def solution(a, b):
         answer+=i*j
     return answer
 
+
