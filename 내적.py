@@ -3,3 +3,4 @@ def solution(a, b):
     for i, j in zip(a,b):
         answer+=i*j
     return answer
+
