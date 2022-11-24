@@ -21,6 +21,7 @@ def isbalanced(u):#올바른 괄호문자열인지
     return True
 
 
+
 def solution(p):
     answer = ''
     if not p:
