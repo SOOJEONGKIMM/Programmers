@@ -13,7 +13,8 @@ def solution(n, k):
     while n>0:
         n, mod = divmod(n, k)
         rev_base += str(mod)
-    
+ 
+ 
     rev = rev_base[::-1]
     sosu= list(rev.split("0"))
     for i in sosu:
@@ -21,6 +22,3 @@ def solution(n, k):
             answer+=1
     return answer
  
-
-
-
