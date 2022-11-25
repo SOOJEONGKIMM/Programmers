@@ -20,5 +20,6 @@ def solution(n, k):
     for i in sosu:
         if i and checksosu(int(i)):
             answer+=1
+            
     return answer
  
