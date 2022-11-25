@@ -34,6 +34,8 @@ def solution(p):
         answer += solution(v)
         answer += ')'
         
+        
+        
         for i in u[1:len(u)-1]:
             if i == '(':
                 answer += ')'
