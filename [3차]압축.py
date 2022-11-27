@@ -6,6 +6,7 @@ def solution(msg):
     idx = 27
     start, end = 0, 1
 
+    
     while end < len(msg) + 1:
         s = msg[start:end]
         if s in d:
