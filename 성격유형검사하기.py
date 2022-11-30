@@ -6,6 +6,7 @@ def solution(survey, choices):
     p_list = [3,2,1,0,1,2,3]
     mbti = dict()
     d = dict(zip(c_list,p_list))
+    
     for s, c in zip(survey, choices):
         if c < 4:
             try:
