@@ -9,6 +9,7 @@ def divide(w):
         if left==right:#균형잡힌 괄호문자열 
             return w[:i+1], w[i+1:]
 
+        
 def isbalanced(u):#올바른 괄호문자열인지 
     stack = []
     for i in u:
