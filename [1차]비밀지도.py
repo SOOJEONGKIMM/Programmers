@@ -14,3 +14,4 @@ def solution(n, arr1, arr2):
         answer.append(b_num)
     return answer
 
+
