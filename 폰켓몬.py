@@ -8,3 +8,4 @@ def solution(nums):
         answer = take
         
 return answer
+
