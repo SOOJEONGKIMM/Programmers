@@ -10,4 +10,5 @@ def solution(n):
         print(answer)
         n//=3
         
+        
     return answer
