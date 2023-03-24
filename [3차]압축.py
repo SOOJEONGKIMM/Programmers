@@ -5,7 +5,6 @@ def solution(msg):
         d[chr(c)] = c - ord('A') + 1
     idx = 27
     start, end = 0, 1
-
     
     while end < len(msg) + 1:
         s = msg[start:end]
