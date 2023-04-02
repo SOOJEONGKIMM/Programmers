@@ -14,4 +14,3 @@ def solution(progresses, speeds):
             days+=1
     res.append(cnt)
     return res
-       
