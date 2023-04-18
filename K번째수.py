@@ -5,4 +5,3 @@ def solution(array, commands):
         answer.append(tmp[a[2]-1])
 
     return answer
-
